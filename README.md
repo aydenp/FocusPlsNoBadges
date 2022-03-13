@@ -1,5 +1,7 @@
 #  FocusPlsNoBadges
 
+![Demo GIF: turning on a Focus mode, watching badges disappear, turning the mode off, and watching badges come back](Assets/Demo.gif)
+
 Add the 'Hide Notification Badges' Focus mode setting from iOS to macOS, in a really gross and hacky way.
 
 ## Getting started

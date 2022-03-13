@@ -26,7 +26,6 @@
 		C31C5A7027DE6EBC00388D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C31C5A7427DE6EBE00388D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31C5A7727DE6EBE00388D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C31C5A7927DE6EBE00388D33 /* FocusPlsNoBadges.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocusPlsNoBadges.entitlements; sourceTree = "<group>"; };
 		C31C5A8027DE731E00388D33 /* ModelFiles+Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelFiles+Current.swift"; sourceTree = "<group>"; };
 		C31C5A8227DE733300388D33 /* ModeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeConfiguration.swift; sourceTree = "<group>"; };
 		C31C5A8427DE733E00388D33 /* ModeConfigurationsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeConfigurationsFile.swift; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 				C31C5A7427DE6EBE00388D33 /* Assets.xcassets */,
 				C31C5A7627DE6EBE00388D33 /* Main.storyboard */,
 				C31C5A9127DE8A3F00388D33 /* Info.plist */,
-				C31C5A7927DE6EBE00388D33 /* FocusPlsNoBadges.entitlements */,
 			);
 			path = FocusPlsNoBadges;
 			sourceTree = "<group>";
@@ -310,12 +308,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FocusPlsNoBadges/FocusPlsNoBadges.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RHEEZ26ZWB;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FocusPlsNoBadges/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -338,12 +335,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FocusPlsNoBadges/FocusPlsNoBadges.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RHEEZ26ZWB;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FocusPlsNoBadges/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

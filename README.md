@@ -20,3 +20,8 @@ Add the 'Hide Notification Badges' Focus mode setting from iOS to macOS, in a re
 ## Downloads
 
 [Coming soon](https://github.com/aydenp/FocusPlsNoBadges/issues/5)
+
+## Anything else?
+
+- [Yeah.](https://github.com/aydenp/FocusPlsNoBadges/issues)
+- It can't hide some system apps' badges, like System Preferences.

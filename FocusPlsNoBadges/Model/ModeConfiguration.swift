@@ -16,7 +16,7 @@ struct ModeConfiguration: Codable {
         private let _hideApplicationBadges: Int
 
         var shouldHideApplicationBadges: Bool {
-            return _hideApplicationBadges != 0
+            return _hideApplicationBadges == 2
         }
 
         enum CodingKeys: String, CodingKey {
